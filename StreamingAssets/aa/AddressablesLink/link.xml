@@ -1,6 +1,8 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="BarrierSpawner" preserve="all" />
+    <type fullname="DropExpOnCollision" preserve="all" />
+    <type fullname="DropGoldOnCollision" preserve="all" />
     <type fullname="EnemyBarrier" preserve="all" />
     <type fullname="EnemyMarker" preserve="all" />
     <type fullname="EnemyMovement" preserve="all" />
@@ -29,6 +31,7 @@
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
     <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
     <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
